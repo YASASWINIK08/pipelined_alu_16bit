@@ -64,6 +64,8 @@ pipelined_alu_16bit/
 ├── README.md
 └── .gitignore
 
+---
+
 🔄 ASIC Design Flow
 
 The following stages were completed successfully:
