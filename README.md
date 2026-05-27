@@ -63,3 +63,89 @@ pipelined_alu_16bit/
 ├── config.json
 ├── README.md
 └── .gitignore
+
+🔄 ASIC Design Flow
+
+The following stages were completed successfully:
+
+RTL Design
+Functional Simulation
+Synthesis
+Floorplanning
+Placement
+Clock Tree Synthesis (CTS)
+Routing
+Static Timing Analysis (STA)
+DRC Verification
+LVS Verification
+Final GDSII Generation
+
+📷 Functional Verification
+Waveform Verification (docs/waveform.png)
+
+The ALU operations were verified functionally through simulation waveforms.
+
+🧩 RTL Schematic
+
+📊 Final Design Metrics
+
+| Metric                     | Result       |
+| -------------------------- | ------------ |
+| Flow Status                | Completed    |
+| Worst Negative Slack (WNS) | 0.00 ns      |
+| Total Negative Slack (TNS) | 0.00 ns      |
+| Worst Setup Slack          | 5.93 ns      |
+| Worst Hold Slack           | 0.27 ns      |
+| Critical Path Delay        | 4.31 ns      |
+| Suggested Clock Frequency  | 100 MHz      |
+| Total Cells                | 1335         |
+| Synthesized Cell Count     | 336          |
+| Core Area                  | 10277.35 µm² |
+| DRC Violations             | 0            |
+| LVS Errors                 | 0            |
+
+📈 Metrics Report
+
+⏱️ Post-Routing STA Results
+
+The final routed design achieved successful timing closure with:
+
+WNS = 0.00 ns
+TNS = 0.00 ns
+Positive setup and hold slack
+
+✅ Manufacturability Verification
+
+| Verification Check     | Result |
+| ---------------------- | ------ |
+| Magic DRC Violations   | 0      |
+| LVS Status             | Clean  |
+| Pin Antenna Violations | 0      |
+| Net Antenna Violations | 0      |
+
+
+🏁 Final Signoff Outputs
+
+The OpenLane flow successfully generated final ASIC signoff deliverables including:
+
+GDSII Layout (top_alu.gds)
+LEF Abstract (top_alu.lef)
+Liberty Timing Model (top_alu.lib)
+SDF Timing Annotation (top_alu.sdf)
+Extracted SPICE Netlist (top_alu.spice)
+
+🎯 Key Learning Outcomes
+RTL design using Verilog HDL
+Pipelined datapath implementation
+ASIC physical design flow
+Static Timing Analysis (STA)
+Clock Tree Synthesis (CTS)
+Routing and congestion handling
+DRC/LVS verification
+OpenLane and Sky130 based ASIC implementation
+
+👩‍💻 Author
+
+Yasaswini Kunapareddy
+
+B.Tech – Electronics and Communication Engineering
