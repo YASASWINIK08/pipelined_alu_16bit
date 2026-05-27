@@ -35,7 +35,7 @@ The ALU supports multiple arithmetic and logical operations using a pipelined ar
 
 ---
 
-# 🏗️ Block Diagram
+# Block Diagram
 
 [Block Diagram](docs/block_diagram.png)
 
