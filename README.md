@@ -41,8 +41,6 @@ The ALU supports multiple arithmetic and logical operations using a pipelined ar
 
 ---
 
-# Pipelined 16-bit ALU ASIC Design using OpenLane
-
 ## 📁 Project Structure
 
 ```text
@@ -189,11 +187,5 @@ The OpenLane flow successfully generated final ASIC signoff deliverables includi
 ## 👩‍💻 Author
 
 ### Yasaswini Kunapareddy
-
-B.Tech – Electronics and Communication Engineering
-
-👩‍💻 Author
-
-Yasaswini Kunapareddy
 
 B.Tech – Electronics and Communication Engineering
